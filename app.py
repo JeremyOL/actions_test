@@ -4,5 +4,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    # ga
     return {'ok':'ok'}
